@@ -20,19 +20,19 @@ def calculate():
     a = float(input("Enter first number : "))
     b = float(input("Enter second number : "))
     print("Enter operation you want to perform : ")
-    print("add, sub, mul or div")
+    print("+, -, * or /")
     op = input().lower().strip()  
 
-    if(op == "add"):
+    if(op == "+"):
         output = add(a, b)
         print("Output: ", output)
-    elif(op == "sub"):
+    elif(op == "-"):
         output = sub(a, b)
         print("Output: ", output)
-    elif(op == "mul"):
+    elif(op == "*"):
         output = mul(a, b)
         print("Output: ", output)
-    elif(op == "div"):
+    elif(op == "/"):
         output = div(a, b)
         print("Output: ", output)
     else:
